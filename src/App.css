@@ -1,0 +1,99 @@
+.App{
+  margin: 20px;
+  padding: 0;
+}
+.AppHeader h2{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.AppHeader p{
+  color: #8a8a8a;
+}
+/*Card css*/
+.AppBtns .postMainDiv{
+  display:inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.AppBtns .postMainDiv .Card{
+  margin-left: 20px;
+  margin-top: 20px;
+  height: 150px fixed;
+  width: 360px;
+  border-radius: 5px;
+  background-color: #000;
+  cursor: pointer;
+}
+.AppBtns .postMainDiv .Card:hover{
+  height: 140px;
+  width: 380px;
+  transition: 1s;
+}
+.AppBtns .postMainDiv .Card img{
+  height: 120px;
+  width: 100%;
+  margin: 0;
+}
+.AppBtns .postMainDiv .Card .CardData{
+  height: 120px;
+  width: auto;
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+.Card .CardData p{
+ background-color: #81818a32;
+ width: 35%;
+ padding: 5px;
+ border-radius: 5px;
+ font-family: sans-serif;
+ font-size: smaller;
+}
+
+/* Action Buttons css*/
+.AppBtns .Action-bin{
+  background-color: #fff;
+  margin-left: 10px;
+  padding: 5px 15px;
+  border-radius: 50px;
+  border-color: rgba(0, 0, 0, 0.267);
+  border-width: thin;
+  font-family: Arial;
+  cursor: pointer;
+}
+.AppBtns .Action-bin:hover{
+  background-color: #000;
+  color: #fff;
+}
+.AppBtns .Action-bin:active{ 
+  background-color: #000;
+  color: #fff;
+}
+/*icon css*/
+.AppHeader .fa{
+  color: #000;
+}
+
+@media screen and (max-width: 900px) {
+  .App{
+    margin: 10px;
+    padding: 0;
+  }
+/* Action Buttons css*/
+.AppBtns .ActionDiv{
+  display: flex;
+  overflow-x: scroll;
+}
+.AppBtns .Action-bin{
+  margin: 20px 10px;
+  height: 60px;
+  width: auto;
+}
+/*Card css*/
+.AppBtns .postMainDiv .Card{
+   margin: 20px auto;
+}
+
+}
